@@ -4,21 +4,44 @@
 # Problem 1
 """
 1. first_name, is a valid name in python, because it is snake case, which is when we use '_' instead of spaces between words.
-2. 
-3.
-Your solution goes here
-
+2. 2nd_name` is not valid because it begins with a number, which is a no no for python variable names
+3. `age` is valid because it follows the rules
+4. `total_amount` is valid, use of underscore is correct and describes something that would probably be used in a python program for totaling something
+5. `while` is invalid since we already use this, it's reserved, so we can't use it as a variable name
+6. `Student` is valid because it follows the rules
+7. `my-variable` is invalid because dashes aren't allowed, and it'll give you an error
+8. `for` is invalid because it's already used for loops. 
+9. `_temp` valid, but I usually don't start with an underscore. I can't remember what that was used for. 
+10. `value#` is invalid because it uses a special character, which is against the law. The python police will get you. 
 
 """
 # Problem 2
 """
-Your solution goes here
+1. `calculate_total`valid because it uses lowercase and underscore
+2. `3rd_function` invalid because it starts with a number.
+3. `print_values` valid, follows the rules
+4. `find-item`invalid because the hypens
+5. `def` invalid, this is reserved for defining a function
+6. `updateProfile` valid, although my previous professor advised against a capital letter in the middle
+7. `my_function` valid because it follows the rules
+8. `try` is invalid because it's reserved
+9. `init_data` valid, snake case and describes
+10. `value@function` is invalid becauase special character
 
 
 """
 # Problem 3
 """
-Your solution goes here
+1. `True and False` - valid. It evaluates to false because both sides of and have to be true, and since it won't be that, it will be false. 
+2. `5 > 3 or "apple" < "banana"` - valid. It will evaluate to true because of the OR. Since 5 > 3, and that is true, it doesn't matter if the other operand is false.
+3. `not 10 <= 20` valid. this is tricky, so the 10 <= 20 is actually true, but when you put 'not' in front of it, it becomes false. 
+4. `True or 5 = 4` invalid. trying to assign 5 to be 4, instead of compare 5 to 4. should be ==
+5. `"apple" != "orange" and 5` is valid. the != means not equal to, so it evaluates to true
+6. `3 < 5 not True` invalid. there should be an operator after the 5. Something like 3 < 5 and not true
+7. `False == (3 > 4)`valid. 3 > 4 is false, and so false == false. == means equal to
+8. `10 <= "10"` invalid. when you put quotes around something it becomes a string. When you try to run this you'll get a type error
+9. `True or not False` is valid. true is true and not false is true, so it will evaluate to true. 
+10. `5 and or 4` invalid. you can't say and or. it has to be one or the other. I would get a syntax error if I put this in python. 
 
 
 """
